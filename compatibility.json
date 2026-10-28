@@ -1,0 +1,293 @@
+{
+  "schema": 1,
+  "product": "撸西西的本地工作台",
+  "review_date": "2026-10-28",
+  "release_state": "public_preview",
+  "current_candidate": {
+    "version": "0.6.1",
+    "zip_sha256": "9f770633820f2728cf0e0f29f3fac7aafe43a8041617fd7004d22bca11e7042a",
+    "zip_bytes": 203995,
+    "payloads": 57,
+    "matrix_included_in_zip": false,
+    "scope": "original_program_zip_not_complete_public_distribution"
+  },
+  "evidence_policy": "Historical saved results rechecked; no model, Google, scheduler or Mac execution in this review. Docs are provider capability only.",
+  "systems": [
+    {
+      "id": "windows",
+      "version": "Windows 11 Pro 10.0.26200",
+      "architecture": "AMD64",
+      "python": "3.12.10",
+      "browser": "Ego Lite 0.6.1.11",
+      "candidate": "0.6.1",
+      "software_lifecycle": "verified_synthetic",
+      "os_reboot": "deferred",
+      "real_logon": "deferred",
+      "sleep_resume": "deferred",
+      "evidence": [
+        "E-WIN",
+        "E-UI",
+        "E-CLOSE",
+        "E-IDENTITY"
+      ]
+    },
+    {
+      "id": "macos",
+      "version": null,
+      "architecture": null,
+      "python": null,
+      "browser": null,
+      "candidate": "0.6.1",
+      "software_lifecycle": "not_tested",
+      "os_reboot": "not_tested",
+      "real_logon": "not_tested",
+      "sleep_resume": "not_tested",
+      "login_adapter": "not_implemented",
+      "retain_data_uninstall_adapter": "not_implemented",
+      "default_isolated_launcher": "not_enabled",
+      "evidence": [
+        "E-MAC"
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "id": "codex-cli-win-040",
+      "label": "Codex CLI / Windows",
+      "candidate": "0.4.0",
+      "observed_client_version": "0.164.0-alpha.11.1",
+      "skill": "historical_native_verified",
+      "execution_same_database": "historical_native_verified",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-CODEX-040",
+        "D-CODEX"
+      ],
+      "limit": "仅合成HTML工单和新会话不重做；实测ZIP cc2011…5bb8，最终0.4.0有限差异已审计；不是0.6.1原生成绩",
+      "scheduled_management_ui": "not_provided"
+    },
+    {
+      "id": "codex-cli-win-061",
+      "label": "Codex CLI / Windows",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "directory_install_only",
+      "execution_same_database": "offline_only",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-WIN",
+        "E-OFFLINE"
+      ],
+      "limit": "未重验该包原生客户端版本、加载或闭环"
+    },
+    {
+      "id": "codex-desktop-win-060",
+      "label": "Codex桌面原生会话 / Windows",
+      "candidate": "0.6.0",
+      "observed_client_version": null,
+      "skill": "historical_workflow_used",
+      "execution_same_database": "historical_native_cycle_with_gaps",
+      "persistent_schedule": "historical_binding_paused",
+      "natural_trigger": "trigger_unknown",
+      "evidence": [
+        "E-CYCLE"
+      ],
+      "limit": "app版本未记录；巡检不是工单修复测试；未知1、自然0；不恢复排期"
+    },
+    {
+      "id": "codex-desktop-win-061",
+      "label": "Codex桌面 / Windows",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "not_tested",
+      "execution_same_database": "not_tested",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-UNTESTED"
+      ],
+      "limit": "没有单独原生端到端验收"
+    },
+    {
+      "id": "codex-ide",
+      "label": "Codex IDE扩展 / Windows或Mac",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "not_tested",
+      "execution_same_database": "not_tested",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-UNTESTED",
+        "D-CODEX"
+      ],
+      "limit": "不由CLI或桌面结果推断IDE通过",
+      "scheduled_management_ui": "not_provided"
+    },
+    {
+      "id": "claude-cli-win-061",
+      "label": "Claude Code CLI / Windows",
+      "candidate": "0.6.1",
+      "observed_client_version": "2.1.97 (historical T006 observation)",
+      "skill": "directory_install_only",
+      "execution_same_database": "offline_only",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "deferred",
+      "evidence": [
+        "E-CLAUDE",
+        "E-WIN",
+        "E-OFFLINE",
+        "D-CLAUDE"
+      ],
+      "limit": "原生加载/权限/领取执行回写及复查按用户决定保留；未重查登录或版本"
+    },
+    {
+      "id": "claude-desktop-win",
+      "label": "Claude Desktop / Cowork / Windows",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "not_tested",
+      "execution_same_database": "not_tested",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-UNTESTED",
+        "D-CLAUDE"
+      ],
+      "limit": "各界面均未分别验收，不由Claude Code目录安装推断"
+    },
+    {
+      "id": "codex-mac",
+      "label": "Codex CLI及桌面 / Mac",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "not_tested",
+      "execution_same_database": "not_tested",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-MAC"
+      ],
+      "limit": "无获准Mac；默认隔离启动器未放行Mac，手工交接只有文档"
+    },
+    {
+      "id": "claude-mac",
+      "label": "Claude Code及Desktop / Mac",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "not_tested",
+      "execution_same_database": "not_tested",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "deferred",
+      "evidence": [
+        "E-MAC"
+      ],
+      "limit": "无获准Mac；Mac生命周期适配尚缺；Claude原生门继续保留"
+    },
+    {
+      "id": "kimi-cli",
+      "label": "Kimi Code CLI / Windows或Mac",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "documentation_only",
+      "execution_same_database": "not_tested",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-UNTESTED",
+        "E-CLIENT-SCOPE",
+        "D-KIMI"
+      ],
+      "limit": "仅官方能力核对；本包无专用适配或原生测试"
+    },
+    {
+      "id": "kimi-desktop",
+      "label": "Kimi Code Desktop / Windows或Mac",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "not_tested",
+      "execution_same_database": "not_tested",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-UNTESTED",
+        "D-KIMI"
+      ],
+      "limit": "提供方介绍本地工具不等于本包测试"
+    },
+    {
+      "id": "deepseek",
+      "label": "DeepSeek相关客户端",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "not_tested",
+      "execution_same_database": "not_tested",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-UNTESTED",
+        "E-CLIENT-SCOPE",
+        "D-DEEPSEEK"
+      ],
+      "limit": "具体界面/版本/系统未选择；FAQ无可读正文，不据此断言提供方能力"
+    },
+    {
+      "id": "web-cloud",
+      "label": "普通网页或云会话，未配置本机连接",
+      "candidate": "0.6.1",
+      "observed_client_version": null,
+      "skill": "not_tested",
+      "execution_same_database": "local_connection_missing",
+      "persistent_schedule": "not_tested",
+      "natural_trigger": "not_tested",
+      "evidence": [
+        "E-UNTESTED",
+        "D-CODEX",
+        "D-CLAUDE"
+      ],
+      "limit": "当前连接条件仅讨论/交接；不把云副本当本机同库，不从云排期推定本机执行"
+    }
+  ],
+  "provider_documentation": {
+    "D-CODEX": [
+      "https://learn.chatgpt.com/docs/build-skills",
+      "https://learn.chatgpt.com/docs/automations"
+    ],
+    "D-CLAUDE": [
+      "https://code.claude.com/docs/en/skills",
+      "https://code.claude.com/docs/en/scheduled-tasks"
+    ],
+    "D-KIMI": [
+      "https://www.kimi.com/code/docs/en/kimi-code-cli/customization/skills.html",
+      "https://www.kimi.com/code/docs/en/kimi-code-cli/guides/getting-started.html",
+      "https://www.kimi.com/en/help/kimi-code/desktop-getting-started"
+    ],
+    "D-DEEPSEEK": [
+      "https://api-docs.deepseek.com/faq/",
+      "https://static.deepseek.com/faq/index.html?lang=en"
+    ]
+  },
+  "remaining_gates": [
+    "Mac real system and software lifecycle implementation/acceptance",
+    "Windows real reboot/logon/sleep",
+    "SEO natural trigger provenance",
+    "Claude native workflow",
+    "0.6.1 native workflow retest",
+    "real Google per-site authorization/read"
+  ],
+  "not_in_first_release": [
+    "Linux",
+    "cross-computer shared database",
+    "model API gateway"
+  ],
+  "private_test_data_included": false,
+  "distribution": {
+    "repository": "https://github.com/lucasgogogo/luxixi-workbench",
+    "version": "0.6.1-preview",
+    "includes_compatibility_matrix": true,
+    "project_license": "MIT",
+    "development_test_schedule": "deleted_not_distributed"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "date": "2026-10-28",
+  "dependencies": [
+    {
+      "name": "Flask",
+      "version": "3.1.3",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/Flask/3.1.3/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/Flask/flask-3.1.3.dist-info__licenses__LICENSE.txt",
+          "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+          "bytes": 1475,
+          "distribution_path": "flask-3.1.3.dist-info/licenses/LICENSE.txt"
+        }
+      ],
+      "requires_dist": [
+        "blinker>=1.9.0",
+        "click>=8.1.3",
+        "importlib-metadata>=3.6.0; python_version < '3.10'",
+        "itsdangerous>=2.2.0",
+        "jinja2>=3.1.2",
+        "markupsafe>=2.1.1",
+        "werkzeug>=3.1.0",
+        "asgiref>=3.2 ; extra == \"async\"",
+        "python-dotenv ; extra == \"dotenv\""
+      ]
+    },
+    {
+      "name": "Werkzeug",
+      "version": "3.1.9",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/Werkzeug/3.1.9/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/Werkzeug/werkzeug-3.1.9.dist-info__licenses__LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+          "bytes": 1475,
+          "distribution_path": "werkzeug-3.1.9.dist-info/licenses/LICENSE.txt"
+        },
+        {
+          "file": "third_party/licenses/Werkzeug/werkzeug__debug__shared__ICON_LICENSE.md",
+          "sha256": "0e103a6358149792707e0d0d14df518f8556213b7cb54c7422f7467f4bb1f7eb",
+          "bytes": 222,
+          "distribution_path": "werkzeug/debug/shared/ICON_LICENSE.md"
+        }
+      ],
+      "requires_dist": [
+        "markupsafe>=2.1.1",
+        "watchdog>=2.3 ; extra == \"watchdog\""
+      ]
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/Jinja2/3.1.6/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/Jinja2/jinja2-3.1.6.dist-info__licenses__LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+          "bytes": 1475,
+          "distribution_path": "jinja2-3.1.6.dist-info/licenses/LICENSE.txt"
+        }
+      ],
+      "requires_dist": [
+        "MarkupSafe>=2.0",
+        "Babel>=2.7 ; extra == \"i18n\""
+      ]
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/MarkupSafe/3.0.3/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/MarkupSafe/markupsafe-3.0.3.dist-info__licenses__LICENSE.txt",
+          "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4",
+          "bytes": 1503,
+          "distribution_path": "markupsafe-3.0.3.dist-info/licenses/LICENSE.txt"
+        }
+      ],
+      "requires_dist": []
+    },
+    {
+      "name": "itsdangerous",
+      "version": "2.2.0",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/itsdangerous/2.2.0/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/itsdangerous/itsdangerous-2.2.0.dist-info__LICENSE.txt",
+          "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7",
+          "bytes": 1475,
+          "distribution_path": "itsdangerous-2.2.0.dist-info/LICENSE.txt"
+        }
+      ],
+      "requires_dist": []
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/click/8.5.0/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/click/click-8.5.0.dist-info__licenses__LICENSE.txt",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+          "bytes": 1475,
+          "distribution_path": "click-8.5.0.dist-info/licenses/LICENSE.txt"
+        }
+      ],
+      "requires_dist": []
+    },
+    {
+      "name": "blinker",
+      "version": "1.9.0",
+      "license": "MIT",
+      "source": "https://pypi.org/project/blinker/1.9.0/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/blinker/blinker-1.9.0.dist-info__LICENSE.txt",
+          "sha256": "9eb73a1f38597a4aa17025d2ae1be3839624c795e985d4f0e9769ce29faca467",
+          "bytes": 1054,
+          "distribution_path": "blinker-1.9.0.dist-info/LICENSE.txt"
+        }
+      ],
+      "requires_dist": []
+    },
+    {
+      "name": "waitress",
+      "version": "3.0.2",
+      "license": "ZPL 2.1",
+      "source": "https://pypi.org/project/waitress/3.0.2/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/waitress/waitress-3.0.2.dist-info__LICENSE.txt",
+          "sha256": "3e671db11df687516cc1db5b3d65e4aa383eaca3c20cea3faf53a0f7335d0a3c",
+          "bytes": 2070,
+          "distribution_path": "waitress-3.0.2.dist-info/LICENSE.txt"
+        }
+      ],
+      "requires_dist": [
+        "Sphinx >=1.8.1 ; extra == 'docs'",
+        "docutils ; extra == 'docs'",
+        "pylons-sphinx-themes >=1.0.9 ; extra == 'docs'",
+        "pytest ; extra == 'testing'",
+        "pytest-cov ; extra == 'testing'",
+        "coverage >=7.6.0 ; extra == 'testing'"
+      ]
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.11.5",
+      "license": "MIT",
+      "source": "https://pypi.org/project/platformdirs/4.11.5/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/platformdirs/platformdirs-4.11.5.dist-info__licenses__LICENSE",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+          "bytes": 1089,
+          "distribution_path": "platformdirs-4.11.5.dist-info/licenses/LICENSE"
+        }
+      ],
+      "requires_dist": []
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.4",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/tzdata/2026.4/",
+      "distribution_scope": "resolved at user setup; dependency binaries/source not vendored",
+      "license_files": [
+        {
+          "file": "third_party/licenses/tzdata/tzdata-2026.4.dist-info__licenses__LICENSE",
+          "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46",
+          "bytes": 625,
+          "distribution_path": "tzdata-2026.4.dist-info/licenses/LICENSE"
+        },
+        {
+          "file": "third_party/licenses/tzdata/tzdata-2026.4.dist-info__licenses__licenses__LICENSE_APACHE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "distribution_path": "tzdata-2026.4.dist-info/licenses/licenses/LICENSE_APACHE"
+        }
+      ],
+      "requires_dist": []
+    }
+  ],
+  "dependency_implementation_vendored": false,
+  "python_interpreter_vendored": false,
+  "scope": "10 pinned runtime distributions; actual current Windows/Python3.12 metadata; not cross-platform wheel resolution or vulnerability audit"
+}

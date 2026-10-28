@@ -1,0 +1,410 @@
+{
+  "schema": 1,
+  "candidate": "0.6.1-public-preview",
+  "program_version": "0.6.1",
+  "program_zip_sha256": "9f770633820f2728cf0e0f29f3fac7aafe43a8041617fd7004d22bca11e7042a",
+  "state": "public_preview",
+  "project_license": "MIT",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 71,
+      "sha256": "5603bf008bf69e7166b91f7d421a5ac8d52a12ed6ca9c0f084ba51a1ff80c2e4"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 206,
+      "sha256": "c9e84444dab9eeebbcae4d08bcffd179800fce656562894da6ab9d6cdba17703"
+    },
+    {
+      "path": "compatibility.json",
+      "bytes": 9710,
+      "sha256": "2acfbfe1cf7a01921dbf3a37779433de1ffc1f10ec1ee87b5fe0a19fc17ebae1"
+    },
+    {
+      "path": "COMPATIBILITY.md",
+      "bytes": 8253,
+      "sha256": "779c6fa18daac981ed89ef7ffaf67a80718adb9cc786a1d4a28df89bd865fc61"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1089,
+      "sha256": "c913495ac66b100033719ef68c4e2321fb78db20e5240cd3187b0fa609e4df00"
+    },
+    {
+      "path": "luxixi-workbench/agents/openai.yaml",
+      "bytes": 355,
+      "sha256": "1b4b205102966ad5768f84b1b8be0b9bdf34cefee9afea8b58582db6a6cf30eb"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/demo/fixtures.js",
+      "bytes": 15355,
+      "sha256": "82164ac82a5ce4cefb1122271b79ceb63fda7604fe2fce958e7c4d51456a07dd"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/demo/preview.css",
+      "bytes": 9531,
+      "sha256": "a30b4a1a0febd7ac169029ad0d8fe5099dea5bddf0c0b3e2d5d6f978b77c4246"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/demo/preview.html",
+      "bytes": 4144,
+      "sha256": "e510a70f5b00bde60e40382bbe71d8b1021cdfcd20dbd0264b0b740bbff8dad8"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/demo/preview.js",
+      "bytes": 14028,
+      "sha256": "6cb38d5e851306871b8a222fb6f72672e45b9a85d9cee635e336a61e6a841d83"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/demo/seo.css",
+      "bytes": 15575,
+      "sha256": "975578b1c63bf915726b9b5333c7c1a25dea454abb4e770fcedbba22a130fc78"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/demo/seo.html",
+      "bytes": 1507,
+      "sha256": "73d34b37c20cc4e9eb26ab04b8571e56a264cd2c33803e95db74254665394054"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/demo/seo.js",
+      "bytes": 38458,
+      "sha256": "8355a1ae0038ff5b506effb0871fc1d95402ac1de1e0f633a2b054d727a17530"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/demo/skills.js",
+      "bytes": 3901,
+      "sha256": "fffa520b9118bcd58a35aed789c575a2a2fecdff671bdf1111383eddd28633e1"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/__init__.py",
+      "bytes": 131,
+      "sha256": "fc5420caf554443e1174633114f1d52095b0063548de235b19984b29918d31b3"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/__main__.py",
+      "bytes": 47,
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/cli.py",
+      "bytes": 4329,
+      "sha256": "fea9bc50353dbc424f2c7875efa26c96352f2295e91a776fdee928a1f40eb45e"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/client_cli.py",
+      "bytes": 1858,
+      "sha256": "c4b263a9a22402bd313ae16ab9ffff51f83e7ebc1372232c197f636f77a23cf0"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/clients.py",
+      "bytes": 17622,
+      "sha256": "c6ecfb4701a92231b967a15b486633fd5b13d119273797a18d8d31751ee42d5d"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/clients_process.py",
+      "bytes": 8061,
+      "sha256": "2df998ccda8585fd94ae0484f04c20cd441424b2ca91384ad4d79b92114bb7d8"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/cycle.py",
+      "bytes": 24135,
+      "sha256": "69a6da5a9a85bdb092335a29f2c9df7b939ee2bf8b344f42b7d16868e815b254"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/cycle_cli.py",
+      "bytes": 3657,
+      "sha256": "068cf7a57c3e854e3f8b37abea2b05c1ded7cf9843f07cd4a88465447b47edec"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/effects.py",
+      "bytes": 8960,
+      "sha256": "02687c3d831ad2fde51fefea39a3ef8f897cc86be8ef141d0cb54de35a69a7ea"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/methods.py",
+      "bytes": 7458,
+      "sha256": "0744486db185012a2eaa0eac900e551a95af534bae59587d521a65a990212d5d"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/onboard_cli.py",
+      "bytes": 3332,
+      "sha256": "22b0f45f563a136f2ed8bf9643584ba849da6b4fc313faf20c9ef6079a1eeaba"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/onboarding.py",
+      "bytes": 22362,
+      "sha256": "c7a951bd3473d20e0ac3b5629ab1debbf0b97c816f5d495bebb65eb866e5f496"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/paths.py",
+      "bytes": 3582,
+      "sha256": "c2ca78b62dedb9141cae7c5fff1ee6d04528843ac0a0dcec4da62cc01149e3f2"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/public_check.py",
+      "bytes": 7027,
+      "sha256": "30bc3053110507f90f5d9687ba0c17e44f666e441936f4d68a23c57feacb4fec"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/seo.py",
+      "bytes": 20666,
+      "sha256": "b28e38c4dd2916150cf247a581a337029577cf879ea4fbef1bd186c5c3c7e4ca"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/seo_cli.py",
+      "bytes": 3671,
+      "sha256": "47cfdf7d1022c0eae4e39574b3667ff29dd27e6b75e0595de2b741c1c386427e"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/seo_data.py",
+      "bytes": 16010,
+      "sha256": "125d95ef5f64b4278b339ab4badd0c5ad2477cc4f922dd6faa18c7aff4e1cb9a"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/seo_public.py",
+      "bytes": 10161,
+      "sha256": "dbbbdc3347700f3126a86a73b73d4715df4e4f0e7a8db7a7252198c1b46bcb42"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/server.py",
+      "bytes": 6801,
+      "sha256": "23cf422dfd03297c443d51c6b11b1feef57bdf869db5799cbb1c669aca27db25"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/skill_scan.py",
+      "bytes": 3019,
+      "sha256": "ed250997b8106d25beb14abf254cdacada7474bb753874c143a7fb44c020ae1f"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/store.py",
+      "bytes": 7869,
+      "sha256": "e12bd19c8a2e9c0cd177c81f09594110f769150ba5928b9b4207ab45554f5dd5"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/ticket_cli.py",
+      "bytes": 4324,
+      "sha256": "d8c59a84aa19c2972412406d5c925d27c464163ab2f88d4d6f83e8fa3803b723"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/luxixi_workbench/tickets.py",
+      "bytes": 28529,
+      "sha256": "18ff3d1664f196872158a303a2c7fd51c99c141d055144838b95082065942a29"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/README.md",
+      "bytes": 9611,
+      "sha256": "6da2a770d2159b68fa22c61e70c34f6cee5802207186703936c2e1eb7e6eea0a"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/requirements.lock",
+      "bytes": 161,
+      "sha256": "b6cd48e1cc3ae85d5f9600f097882ec17c9f18bd59bf6a8d5d7166bfa6b8ad12"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/web/app.css",
+      "bytes": 9531,
+      "sha256": "a30b4a1a0febd7ac169029ad0d8fe5099dea5bddf0c0b3e2d5d6f978b77c4246"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/web/app.js",
+      "bytes": 15476,
+      "sha256": "0650142b171da5bd0b0c1de79fe7a10a09d04f13f34161c7abc5d05cffdb1e85"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/web/index.html",
+      "bytes": 4850,
+      "sha256": "f167d15ac41d877c31c1688e5d571cadef0cddfd2f79fa08070c47d8d878d880"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/web/seo.css",
+      "bytes": 15575,
+      "sha256": "975578b1c63bf915726b9b5333c7c1a25dea454abb4e770fcedbba22a130fc78"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/web/seo.html",
+      "bytes": 1481,
+      "sha256": "ed352356771e3b5715f1be4fc09b3ab18bf4d5c507352a9ec99a8a05240d5b0e"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/web/seo.js",
+      "bytes": 45318,
+      "sha256": "553247e251d3ba31f12ee76b33f2dbac3ec060cef009a8b25abaa1f97e064e16"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/web/skills.js",
+      "bytes": 4077,
+      "sha256": "389fe74fb3e71eb7e70d17e336d3b0fbc5c851d5010107d6c259e1f4f59efd85"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/workbench.ps1",
+      "bytes": 669,
+      "sha256": "da652c9350a9dffb97cb6980267a950bc697634677ae2beed37c90b5b933fa6e"
+    },
+    {
+      "path": "luxixi-workbench/assets/runtime/workbench.sh",
+      "bytes": 316,
+      "sha256": "d8a267b530c98efd11981a7c97ef92a7652381327f9c7ab217c760b4210f861c"
+    },
+    {
+      "path": "luxixi-workbench/bundle-manifest.json",
+      "bytes": 9889,
+      "sha256": "f871b30aede35bef17ca03c5b2c3e21ed880c8c2bd2b279110fb86a4519434b5"
+    },
+    {
+      "path": "luxixi-workbench/references/claude.md",
+      "bytes": 2703,
+      "sha256": "6b9ea322dce80c8eaeed5b4c33358c9d32d8d91db4f0b30a37a4776a53bcb445"
+    },
+    {
+      "path": "luxixi-workbench/references/clients.md",
+      "bytes": 4782,
+      "sha256": "7faefe0d071e46ec87b9b9a0d556576e94ba130abf1f4dfae6a75bf05ec9e83e"
+    },
+    {
+      "path": "luxixi-workbench/references/codex.md",
+      "bytes": 3068,
+      "sha256": "208c4f05b535d9f2e4fd8f45805603ad8b086703954bde0e57267fdfe595407e"
+    },
+    {
+      "path": "luxixi-workbench/references/cycle.md",
+      "bytes": 8155,
+      "sha256": "ef57561ebc3153c19234dede02d5dd9ef48d7b4490206c4844e840224a3e5aac"
+    },
+    {
+      "path": "luxixi-workbench/references/google-mcp.md",
+      "bytes": 4809,
+      "sha256": "c3c6d37d645962a9e625aff2dcaea14d270f76a90a3ecab174da7fd44273d008"
+    },
+    {
+      "path": "luxixi-workbench/references/receipts.md",
+      "bytes": 4703,
+      "sha256": "881ccc49e81059205a0bf1aa8b2ab689e49b894f8900a263b23663f1c3fd4e67"
+    },
+    {
+      "path": "luxixi-workbench/references/seo.md",
+      "bytes": 6150,
+      "sha256": "8b9cbda4c2be32d70b8b0b094c41be167b7f51f533b58d972995066c01dc5f25"
+    },
+    {
+      "path": "luxixi-workbench/references/tickets.md",
+      "bytes": 6685,
+      "sha256": "764c6b87c047dc84b8b7f3d68091ba09f26621428b3ebf1f68014c820c0f084d"
+    },
+    {
+      "path": "luxixi-workbench/references/windows.md",
+      "bytes": 4737,
+      "sha256": "08ffb354aaca9cf21644610768ebcc6bd5154292cf111d8bb6222199118145ec"
+    },
+    {
+      "path": "luxixi-workbench/scripts/install_skill.py",
+      "bytes": 6039,
+      "sha256": "a3a6183f35dfe542300dff565776e2cf9f292a1f9a08921c6205b35613519a1f"
+    },
+    {
+      "path": "luxixi-workbench/scripts/manage_windows.py",
+      "bytes": 13736,
+      "sha256": "5f72997886ed99d0534b4308fbd68206a177a21c43f405ae955fd07c91b58692"
+    },
+    {
+      "path": "luxixi-workbench/scripts/windows_shell.py",
+      "bytes": 2647,
+      "sha256": "b3917df2b643070ff47d0dc90c3e3f907355ce41cb5ea1ac842b6314150acc5d"
+    },
+    {
+      "path": "luxixi-workbench/scripts/workbench.py",
+      "bytes": 7791,
+      "sha256": "10da322fd5cc6be643615edf823eebf25cfc393d75fd9d461d67aa0326991597"
+    },
+    {
+      "path": "luxixi-workbench/SKILL.md",
+      "bytes": 6355,
+      "sha256": "3837a4bb96bf676a810b39b2de0ae6168f3a85ecf62f3b522d98e37d416558b5"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1916,
+      "sha256": "ae0f4ea3a223dce480276819d614ad1d049b1752258032105192439d28ec71d3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19623,
+      "sha256": "76962fea0c8fae497be3aadad08a0456db69c382c3dc5db6a7046da901ec5765"
+    },
+    {
+      "path": "RELEASE.md",
+      "bytes": 2556,
+      "sha256": "8fc3dee379f544f47cfd6344200cfe125a11815110b3699289a0d6af3f393b1b"
+    },
+    {
+      "path": "third_party/dependencies.json",
+      "bytes": 8039,
+      "sha256": "18ee66f698dfdbaaf4b79246d06b1b5d820f4990d06a89cfa88ed65bfde74f60"
+    },
+    {
+      "path": "third_party/licenses/blinker/blinker-1.9.0.dist-info__LICENSE.txt",
+      "bytes": 1054,
+      "sha256": "9eb73a1f38597a4aa17025d2ae1be3839624c795e985d4f0e9769ce29faca467"
+    },
+    {
+      "path": "third_party/licenses/click/click-8.5.0.dist-info__licenses__LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+    },
+    {
+      "path": "third_party/licenses/Flask/flask-3.1.3.dist-info__licenses__LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+    },
+    {
+      "path": "third_party/licenses/itsdangerous/itsdangerous-2.2.0.dist-info__LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7"
+    },
+    {
+      "path": "third_party/licenses/Jinja2/jinja2-3.1.6.dist-info__licenses__LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+    },
+    {
+      "path": "third_party/licenses/MarkupSafe/markupsafe-3.0.3.dist-info__licenses__LICENSE.txt",
+      "bytes": 1503,
+      "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4"
+    },
+    {
+      "path": "third_party/licenses/platformdirs/platformdirs-4.11.5.dist-info__licenses__LICENSE",
+      "bytes": 1089,
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+    },
+    {
+      "path": "third_party/licenses/tzdata/tzdata-2026.4.dist-info__licenses__LICENSE",
+      "bytes": 625,
+      "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46"
+    },
+    {
+      "path": "third_party/licenses/tzdata/tzdata-2026.4.dist-info__licenses__licenses__LICENSE_APACHE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "third_party/licenses/waitress/waitress-3.0.2.dist-info__LICENSE.txt",
+      "bytes": 2070,
+      "sha256": "3e671db11df687516cc1db5b3d65e4aa383eaca3c20cea3faf53a0f7335d0a3c"
+    },
+    {
+      "path": "third_party/licenses/Werkzeug/werkzeug-3.1.9.dist-info__licenses__LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+    },
+    {
+      "path": "third_party/licenses/Werkzeug/werkzeug__debug__shared__ICON_LICENSE.md",
+      "bytes": 222,
+      "sha256": "0e103a6358149792707e0d0d14df518f8556213b7cb54c7422f7467f4bb1f7eb"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3249,
+      "sha256": "6a127fb27b6c4beeb29467090fab1d4bbf4fd0a086b3391624649def797bc284"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "skill": "luxixi-workbench",
+  "version": "0.6.1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "3837a4bb96bf676a810b39b2de0ae6168f3a85ecf62f3b522d98e37d416558b5",
+      "bytes": 6355
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "1b4b205102966ad5768f84b1b8be0b9bdf34cefee9afea8b58582db6a6cf30eb",
+      "bytes": 355
+    },
+    {
+      "path": "references/claude.md",
+      "sha256": "6b9ea322dce80c8eaeed5b4c33358c9d32d8d91db4f0b30a37a4776a53bcb445",
+      "bytes": 2703
+    },
+    {
+      "path": "references/clients.md",
+      "sha256": "7faefe0d071e46ec87b9b9a0d556576e94ba130abf1f4dfae6a75bf05ec9e83e",
+      "bytes": 4782
+    },
+    {
+      "path": "references/codex.md",
+      "sha256": "208c4f05b535d9f2e4fd8f45805603ad8b086703954bde0e57267fdfe595407e",
+      "bytes": 3068
+    },
+    {
+      "path": "references/cycle.md",
+      "sha256": "ef57561ebc3153c19234dede02d5dd9ef48d7b4490206c4844e840224a3e5aac",
+      "bytes": 8155
+    },
+    {
+      "path": "references/google-mcp.md",
+      "sha256": "c3c6d37d645962a9e625aff2dcaea14d270f76a90a3ecab174da7fd44273d008",
+      "bytes": 4809
+    },
+    {
+      "path": "references/receipts.md",
+      "sha256": "881ccc49e81059205a0bf1aa8b2ab689e49b894f8900a263b23663f1c3fd4e67",
+      "bytes": 4703
+    },
+    {
+      "path": "references/seo.md",
+      "sha256": "8b9cbda4c2be32d70b8b0b094c41be167b7f51f533b58d972995066c01dc5f25",
+      "bytes": 6150
+    },
+    {
+      "path": "references/tickets.md",
+      "sha256": "764c6b87c047dc84b8b7f3d68091ba09f26621428b3ebf1f68014c820c0f084d",
+      "bytes": 6685
+    },
+    {
+      "path": "references/windows.md",
+      "sha256": "08ffb354aaca9cf21644610768ebcc6bd5154292cf111d8bb6222199118145ec",
+      "bytes": 4737
+    },
+    {
+      "path": "scripts/install_skill.py",
+      "sha256": "a3a6183f35dfe542300dff565776e2cf9f292a1f9a08921c6205b35613519a1f",
+      "bytes": 6039
+    },
+    {
+      "path": "scripts/manage_windows.py",
+      "sha256": "5f72997886ed99d0534b4308fbd68206a177a21c43f405ae955fd07c91b58692",
+      "bytes": 13736
+    },
+    {
+      "path": "scripts/windows_shell.py",
+      "sha256": "b3917df2b643070ff47d0dc90c3e3f907355ce41cb5ea1ac842b6314150acc5d",
+      "bytes": 2647
+    },
+    {
+      "path": "scripts/workbench.py",
+      "sha256": "10da322fd5cc6be643615edf823eebf25cfc393d75fd9d461d67aa0326991597",
+      "bytes": 7791
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/__init__.py",
+      "sha256": "fc5420caf554443e1174633114f1d52095b0063548de235b19984b29918d31b3",
+      "bytes": 131
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "bytes": 47
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/cli.py",
+      "sha256": "fea9bc50353dbc424f2c7875efa26c96352f2295e91a776fdee928a1f40eb45e",
+      "bytes": 4329
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/client_cli.py",
+      "sha256": "c4b263a9a22402bd313ae16ab9ffff51f83e7ebc1372232c197f636f77a23cf0",
+      "bytes": 1858
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/clients.py",
+      "sha256": "c6ecfb4701a92231b967a15b486633fd5b13d119273797a18d8d31751ee42d5d",
+      "bytes": 17622
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/clients_process.py",
+      "sha256": "2df998ccda8585fd94ae0484f04c20cd441424b2ca91384ad4d79b92114bb7d8",
+      "bytes": 8061
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/cycle.py",
+      "sha256": "69a6da5a9a85bdb092335a29f2c9df7b939ee2bf8b344f42b7d16868e815b254",
+      "bytes": 24135
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/cycle_cli.py",
+      "sha256": "068cf7a57c3e854e3f8b37abea2b05c1ded7cf9843f07cd4a88465447b47edec",
+      "bytes": 3657
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/effects.py",
+      "sha256": "02687c3d831ad2fde51fefea39a3ef8f897cc86be8ef141d0cb54de35a69a7ea",
+      "bytes": 8960
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/methods.py",
+      "sha256": "0744486db185012a2eaa0eac900e551a95af534bae59587d521a65a990212d5d",
+      "bytes": 7458
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/onboard_cli.py",
+      "sha256": "22b0f45f563a136f2ed8bf9643584ba849da6b4fc313faf20c9ef6079a1eeaba",
+      "bytes": 3332
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/onboarding.py",
+      "sha256": "c7a951bd3473d20e0ac3b5629ab1debbf0b97c816f5d495bebb65eb866e5f496",
+      "bytes": 22362
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/paths.py",
+      "sha256": "c2ca78b62dedb9141cae7c5fff1ee6d04528843ac0a0dcec4da62cc01149e3f2",
+      "bytes": 3582
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/public_check.py",
+      "sha256": "30bc3053110507f90f5d9687ba0c17e44f666e441936f4d68a23c57feacb4fec",
+      "bytes": 7027
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/seo.py",
+      "sha256": "b28e38c4dd2916150cf247a581a337029577cf879ea4fbef1bd186c5c3c7e4ca",
+      "bytes": 20666
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/seo_cli.py",
+      "sha256": "47cfdf7d1022c0eae4e39574b3667ff29dd27e6b75e0595de2b741c1c386427e",
+      "bytes": 3671
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/seo_data.py",
+      "sha256": "125d95ef5f64b4278b339ab4badd0c5ad2477cc4f922dd6faa18c7aff4e1cb9a",
+      "bytes": 16010
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/seo_public.py",
+      "sha256": "dbbbdc3347700f3126a86a73b73d4715df4e4f0e7a8db7a7252198c1b46bcb42",
+      "bytes": 10161
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/server.py",
+      "sha256": "23cf422dfd03297c443d51c6b11b1feef57bdf869db5799cbb1c669aca27db25",
+      "bytes": 6801
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/skill_scan.py",
+      "sha256": "ed250997b8106d25beb14abf254cdacada7474bb753874c143a7fb44c020ae1f",
+      "bytes": 3019
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/store.py",
+      "sha256": "e12bd19c8a2e9c0cd177c81f09594110f769150ba5928b9b4207ab45554f5dd5",
+      "bytes": 7869
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/ticket_cli.py",
+      "sha256": "d8c59a84aa19c2972412406d5c925d27c464163ab2f88d4d6f83e8fa3803b723",
+      "bytes": 4324
+    },
+    {
+      "path": "assets/runtime/luxixi_workbench/tickets.py",
+      "sha256": "18ff3d1664f196872158a303a2c7fd51c99c141d055144838b95082065942a29",
+      "bytes": 28529
+    },
+    {
+      "path": "assets/runtime/web/app.css",
+      "sha256": "a30b4a1a0febd7ac169029ad0d8fe5099dea5bddf0c0b3e2d5d6f978b77c4246",
+      "bytes": 9531
+    },
+    {
+      "path": "assets/runtime/web/app.js",
+      "sha256": "0650142b171da5bd0b0c1de79fe7a10a09d04f13f34161c7abc5d05cffdb1e85",
+      "bytes": 15476
+    },
+    {
+      "path": "assets/runtime/web/index.html",
+      "sha256": "f167d15ac41d877c31c1688e5d571cadef0cddfd2f79fa08070c47d8d878d880",
+      "bytes": 4850
+    },
+    {
+      "path": "assets/runtime/web/seo.css",
+      "sha256": "975578b1c63bf915726b9b5333c7c1a25dea454abb4e770fcedbba22a130fc78",
+      "bytes": 15575
+    },
+    {
+      "path": "assets/runtime/web/seo.html",
+      "sha256": "ed352356771e3b5715f1be4fc09b3ab18bf4d5c507352a9ec99a8a05240d5b0e",
+      "bytes": 1481
+    },
+    {
+      "path": "assets/runtime/web/seo.js",
+      "sha256": "553247e251d3ba31f12ee76b33f2dbac3ec060cef009a8b25abaa1f97e064e16",
+      "bytes": 45318
+    },
+    {
+      "path": "assets/runtime/web/skills.js",
+      "sha256": "389fe74fb3e71eb7e70d17e336d3b0fbc5c851d5010107d6c259e1f4f59efd85",
+      "bytes": 4077
+    },
+    {
+      "path": "assets/runtime/demo/fixtures.js",
+      "sha256": "82164ac82a5ce4cefb1122271b79ceb63fda7604fe2fce958e7c4d51456a07dd",
+      "bytes": 15355
+    },
+    {
+      "path": "assets/runtime/demo/preview.css",
+      "sha256": "a30b4a1a0febd7ac169029ad0d8fe5099dea5bddf0c0b3e2d5d6f978b77c4246",
+      "bytes": 9531
+    },
+    {
+      "path": "assets/runtime/demo/preview.html",
+      "sha256": "e510a70f5b00bde60e40382bbe71d8b1021cdfcd20dbd0264b0b740bbff8dad8",
+      "bytes": 4144
+    },
+    {
+      "path": "assets/runtime/demo/preview.js",
+      "sha256": "6cb38d5e851306871b8a222fb6f72672e45b9a85d9cee635e336a61e6a841d83",
+      "bytes": 14028
+    },
+    {
+      "path": "assets/runtime/demo/seo.css",
+      "sha256": "975578b1c63bf915726b9b5333c7c1a25dea454abb4e770fcedbba22a130fc78",
+      "bytes": 15575
+    },
+    {
+      "path": "assets/runtime/demo/seo.html",
+      "sha256": "73d34b37c20cc4e9eb26ab04b8571e56a264cd2c33803e95db74254665394054",
+      "bytes": 1507
+    },
+    {
+      "path": "assets/runtime/demo/seo.js",
+      "sha256": "8355a1ae0038ff5b506effb0871fc1d95402ac1de1e0f633a2b054d727a17530",
+      "bytes": 38458
+    },
+    {
+      "path": "assets/runtime/demo/skills.js",
+      "sha256": "fffa520b9118bcd58a35aed789c575a2a2fecdff671bdf1111383eddd28633e1",
+      "bytes": 3901
+    },
+    {
+      "path": "assets/runtime/requirements.lock",
+      "sha256": "b6cd48e1cc3ae85d5f9600f097882ec17c9f18bd59bf6a8d5d7166bfa6b8ad12",
+      "bytes": 161
+    },
+    {
+      "path": "assets/runtime/README.md",
+      "sha256": "6da2a770d2159b68fa22c61e70c34f6cee5802207186703936c2e1eb7e6eea0a",
+      "bytes": 9611
+    },
+    {
+      "path": "assets/runtime/workbench.ps1",
+      "sha256": "da652c9350a9dffb97cb6980267a950bc697634677ae2beed37c90b5b933fa6e",
+      "bytes": 669
+    },
+    {
+      "path": "assets/runtime/workbench.sh",
+      "sha256": "d8a267b530c98efd11981a7c97ef92a7652381327f9c7ab217c760b4210f861c",
+      "bytes": 316
+    }
+  ]
+}

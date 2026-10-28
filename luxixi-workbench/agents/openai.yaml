@@ -1,0 +1,6 @@
+interface:
+  display_name: "撸西西的本地工作台"
+  short_description: "在聊天里安装自己的SEO工作台，连接并核验自己的Google数据，保存初检与缺口"
+  default_prompt: "使用 $luxixi-workbench，在聊天里引导我接入自己的网站和Google MCP并建立本机工作台。"
+policy:
+  allow_implicit_invocation: true

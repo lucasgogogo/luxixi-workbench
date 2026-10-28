@@ -1,0 +1,2 @@
+# Preserve exact payload and manifest bytes on every checkout.
+* -text
